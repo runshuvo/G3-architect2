@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500;600;700;800&display=swap');
+*{
+    font-family: 'Work Sans', sans-serif;
+    
+}
+header{
+    background-color: rgba(255, 144, 14, 0.10);
+    
+}
+.nav-text{
+    font-weight: 700;
+    font-size: 3rem;
+}
+nav , ul{
+    display: flex;
+}
+nav{
+    justify-content: space-between;
+    padding: 25px 100px;
+    align-items: baseline;
+}
+ul{
+    list-style: none;
+    text-decoration: none;
+}
+nav>ul>li a{
+    font-size: x-large;
+    text-decoration: none;
+    
+color: #424242;
+font-weight: 500;
+margin:left 10px;
+
+
+}
+nav>ul>li{
+    margin-left: 20px;
+}
+.banner-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.banner-text{
+    color: #131313;
+    font-size: 2rem;
+    font-weight: 700;
+}
+.banner-description{
+    color: #727272;
+    font-weight: 400;
+    max-width: 800px;
+}
+header > div > img{
+    width: 100%;
+}
+.primary-button{
+    border-radius: 8px;
+background: #FF900E;
+width: 180px;
+height: 64px;
+color: #FFF;
+font-size: 1.6rem;
+border: none;
+cursor: pointer;
+}
+@media screen and (max-width:576px) {
+nav{
+    flex-direction: column;
+    padding: 10px 10px;
+}
+nav > ul {
+    text-align: center;
+   margin: 0 0;
+   padding: 2px;
+}
+nav > ul > li{
+    margin: 4px;
+    padding: 0;
+}
+.banner-img{
+    width: 100%;
+    max-width: 576px;
+   margin: 5px auto;
+   
+}
+    
+}
