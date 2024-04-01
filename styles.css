@@ -65,6 +65,38 @@ font-size: 1.6rem;
 border: none;
 cursor: pointer;
 }
+.of{
+color: #131313;
+}
+.page2head{
+    color: #727272;
+    font-weight: 500;
+    font-size: 3rem;
+}
+.features{
+    color: #FF900E;
+}
+.page2peragraph{
+    color: #727272;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.page2{
+    display: flex;
+    gap: 10px;
+    margin: 50px 100px;
+}
+.page2img{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 4px;
+}
+
+.page2text-container{
+   margin-top: 10%;
+}
+
 @media screen and (max-width:576px) {
 nav{
     flex-direction: column;
